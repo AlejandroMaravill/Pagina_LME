@@ -6,7 +6,7 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="/style/bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="/style/nosotros.css">
+    <script src="https://kit.fontawesome.com/df31474162.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -20,18 +20,36 @@
     </main>
     <section>
         <div id="nosotros"></div>
-        <!--el formulario ira aca-->
+        <div id="form"></div>
     </section>
     <footer>
-        <!--Aqui el pie de pagina-->
+        <div id="foot"></div>
     </footer>
     <script src="/style/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("src/nosotros.html")
+            fetch("nosotros.html")
                 .then(r => r.text())
                 .then(data => {
                     document.getElementById("nosotros").innerHTML = data;
+                });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("form.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("form").innerHTML = data;
+                });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("footer.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("foot").innerHTML = data;
                 });
         });
     </script>
