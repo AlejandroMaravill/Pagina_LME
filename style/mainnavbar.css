@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex; /* <-- agregado */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00b894; /* verde */
+    padding: 10px 20px;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.login-btn a {
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
