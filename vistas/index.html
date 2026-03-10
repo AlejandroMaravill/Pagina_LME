@@ -6,6 +6,7 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="/style/bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/nosotros.css">
 </head>
 <body>
     <nav>
@@ -18,12 +19,21 @@
         <!--En esta parte ira el contenido principal-->
     </main>
     <section>
+        <div id="nosotros"></div>
         <!--el formulario ira aca-->
-        <h1>prueba de push</h1>
     </section>
     <footer>
         <!--Aqui el pie de pagina-->
     </footer>
     <script src="/style/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("src/nosotros.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("nosotros").innerHTML = data;
+                });
+        });
+    </script>
 </body>
 </html>
