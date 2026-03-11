@@ -177,11 +177,12 @@ footer{
 #pricing table{
     border-radius: 12px;
     overflow: hidden;
+    font-family: DM Sans, sans-serif;
 }
 #nombre-precio {
     background: #ffffff;
     color: #8b8b9e;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DM Sans, sans-serif;
     padding: 6px 0;
     text-align: left;
     font-weight: 700;
@@ -190,7 +191,7 @@ footer{
 #titulo-seccion {
     background: #ffffff;
     color: #0a0a0f;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DM Sans, sans-serif;
     font-size: 40px;
     text-align: left;
     font-weight: 800;  
@@ -199,14 +200,14 @@ footer{
 #subtitulo-seccion{
     background: #ffffff;
     color: #8b8b9e;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DM Sans, sans-serif;
     text-align: left;
-    font-weight: 700;
 }
 
 #encabezado-tabla th{
     background-color: #0a0a0f;
     color: #b8ff57;
+    font-family: DM Sans, sans-serif;
     text-align: center;
 }
 
@@ -214,17 +215,20 @@ footer{
      background-color: #00ff66;
      color: #0a0a0f;
      font-weight: 700;
+     font-family: DM Sans, sans-serif;
 }
 
 #plan-pro{
      background-color: #007bff;
-     color: #0a0a0f;
+     color: #ffffff;
+     font-family: DM Sans, sans-serif;
      font-weight: 700;
 }
 
 #plan-enterprise{
      background-color: #ff9500;
      color: #ffffff;
+     font-family: DM Sans, sans-serif;
      font-weight: 700;
 }
 
