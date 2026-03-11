@@ -1,3 +1,179 @@
+.quienes{
+    background:#0b0f1a;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:50px 0;
+    text-align:center;
+}
+
+.subtitulo{
+    color:#9cff57;
+    font-size:14px;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+.titulo{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.descripcion{
+    color:#bdbdbd;
+    max-width:700px;
+    margin:auto;
+    margin-bottom:60px;
+}
+
+.card-info{
+    background:#0e1424;
+    border:1px solid #8cff4d;
+    border-radius:12px;
+    padding:30px;
+    height:100%;
+    text-align:left;
+}
+
+.card-info h3{
+    margin-bottom:15px;
+}
+
+.card-info p{
+    color:#c9c9c9;
+    font-size:14px;
+}
+
+/*PARTE DE CARLOS*/
+
+/*FORMULARIO*/
+
+.indi1{
+    display: flex;
+    text-align: center;
+}
+
+.indi11{
+    margin-top: 3%;
+}
+
+.frm{
+    margin-top: 2%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.btnfrm{
+    margin-top: 10px;
+    background-color: #16161f;
+    color: #b8ff57;
+    border-radius: 20px !important;
+    padding: 5px;
+}
+
+.contprin{
+    padding: 30px;
+}
+
+/*FOOTER*/
+.flowbit{
+    width: 40%;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #c8f24a;
+    padding: 12px 28px;
+
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    color: black;
+
+    box-shadow: 0px 6px 0px rgba(0,0,0,0.3);
+}
+
+.icono{
+    font-size: 28px;
+    color: orange;
+}
+
+.fil1{
+    display: flex;
+    align-items:flex-end;
+}
+
+footer{
+    background-color: #0a0a0f;
+    margin-top: 3%;
+}
+
+.linea{
+    width: 100%;
+    height: 1px;
+    background-color: #2a2a2a;
+    margin: 20px 0;
+}
+
+.block1, .block2, .block3, .block4, .dr{
+    color: #ffff;
+}
+
+
+.lemflow, .redes{
+    margin-top: 20px;
+}
+
+.redes a{
+    margin-right: 15px;
+    font-size: 24px;
+    color: gray;
+    text-decoration: none;
+}
+
+.redes a:hover{
+    color: white;
+}
+
+
+/*Responsive Footer*/
+@media (max-width: 900px) {
+  .block1 {
+    flex: 0 0 100%;       /* ocupa toda la fila */
+    max-width: 100%;
+  }
+  .block2,
+  .block3,
+  .block4 {
+    flex: 1 1 140px;      /* 3 columnas siguen en la misma fila */
+  }
+}
+
+/*  Tablet chico  */
+@media (max-width: 640px) {
+  .contprin {
+    gap: 32px 0;
+  }
+  .block2,
+  .block3,
+  .block4 {
+    flex: 0 0 100%;       /* cada columna ocupa su propia fila */
+  }
+}
+
+/*  Móvil  */
+@media (max-width: 400px) {
+  footer { padding: 48px 0 24px; }
+
+  .flowbit .texto { font-size: 1.1rem; }
+
+  .redes a { font-size: 1.1rem; }
+
+  .dr { font-size: 0.75rem; }
+}
 #pricing table{
     border-radius: 12px;
     overflow: hidden;
