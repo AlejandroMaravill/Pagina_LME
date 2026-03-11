@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-        <!--En esta parte se construira el navar-->
+        <div id="nv"></div>
     </nav>
     <header>
         <!--En esta parte de construira el header-->
@@ -26,6 +26,15 @@
         <div id="foot"></div>
     </footer>
     <script src="/style/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("nav.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("nv").innerHTML = data;
+                });
+        });
+    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             fetch("nosotros.html")
