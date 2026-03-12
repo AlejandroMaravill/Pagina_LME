@@ -1,18 +1,24 @@
 /*NAV*/
 nav {
-  background-color: #ffffff;
-  font-size: 20px;
-  padding-top: 1%;
-  padding-bottom: 1%;
+    background-color: #ffffff;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.navcont{
+.navcont {
     color: #16161f !important;
 }
 
-.lilog{
+.dvnav {
+    padding-top: 1%;
+    border-bottom: 2px solid black !important;
+}
+
+.lilog {
     padding-top: 1%;
 }
+
 /*
 .logo {
   font-weight: bold;
@@ -39,85 +45,172 @@ nav {
   border-radius: 4px;
 }
 */
-.quienes{
-    background:#0b0f1a;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-    padding:50px 0;
-    text-align:center;
+
+/*HEADER*/
+header {
+    padding-top: 2%;
 }
 
-.subtitulo{
-    color:#9cff57;
-    font-size:14px;
-    letter-spacing:2px;
-    margin-bottom:15px;
+
+
+.let,
+.let2 {
+    display: grid;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 100px;
 }
 
-.titulo{
-    font-size:40px;
-    font-weight:700;
-    margin-bottom:15px;
+.btnhead {
+    background-color: #16161f;
+    color: #b8ff57;
+    border-radius: 10px !important;
+    padding: 5px;
+    height: 50px;
+    width: 40%;
 }
 
-.descripcion{
-    color:#bdbdbd;
-    max-width:700px;
-    margin:auto;
-    margin-bottom:60px;
+.btndemo {
+    height: 50px;
+    width: 30%;
+    color: black;
+    background-color: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif !important;
 }
 
-.card-info{
-    background:#0e1424;
-    border:1px solid #8cff4d;
-    border-radius:12px;
-    padding:30px;
-    height:100%;
-    text-align:left;
+.btndemo:hover {
+    cursor: pointer;
+    background-color: #bdbdbd;
 }
 
-.card-info h3{
-    margin-bottom:15px;
+.colbtnh {
+    display: flex !important;
+    justify-content: end !important;
+    padding-top: 2%;
 }
 
-.card-info p{
-    color:#c9c9c9;
-    font-size:14px;
+.colbtndem {
+    display: flex !important;
+    align-items: start !important;
+    padding-top: 2%;
+}
+
+.imgHead {
+    padding-top: 2%;
+    height: 600px;
+    width: 70%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.ejeemp {
+    padding-top: 2%;
+    background-color: #dcdde0;
+}
+
+.letejemp {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.ejempempre{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 15%;
+    font-weight: 100;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.quienes {
+    background: #0b0f1a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #9cff57;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    color: #bdbdbd;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.card-info {
+    background: #0e1424;
+    border: 1px solid #8cff4d;
+    border-radius: 12px;
+    padding: 30px;
+    height: 100%;
+    text-align: left;
+}
+
+.card-info h3 {
+    margin-bottom: 15px;
+}
+
+.card-info p {
+    color: #c9c9c9;
+    font-size: 14px;
 }
 
 /*PARTE DE CARLOS*/
 
 /*FORMULARIO*/
 
-.indi1{
+.indi1 {
     display: flex;
     text-align: center;
 }
 
-.indi11{
+.indi11 {
     margin-top: 3%;
 }
 
-.frm{
+.frm {
     margin-top: 2%;
     padding-left: 12.5%;
     padding-right: 12.5%;
 }
 
-.btnfrm{
+.btnfrm {
     margin-top: 10px;
     background-color: #16161f;
     color: #b8ff57;
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     padding: 5px;
 }
 
-.contprin{
+.contprin {
     padding: 30px;
 }
 
 /*FOOTER*/
-.flowbit{
+.flowbit {
     width: 40%;
     height: 40px;
     display: inline-flex;
@@ -134,92 +227,195 @@ nav {
 
     color: black;
 
-    box-shadow: 0px 6px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
-.icono{
+.icono {
     font-size: 28px;
     color: orange;
 }
 
-.fil1{
+.fil1 {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
 }
 
-footer{
+footer {
     background-color: #0a0a0f;
     margin-top: 3%;
 }
 
-.linea{
+.linea {
     width: 100%;
     height: 1px;
     background-color: #2a2a2a;
     margin: 20px 0;
 }
 
-.block1, .block2, .block3, .block4, .dr{
+.block1,
+.block2,
+.block3,
+.block4,
+.dr {
     color: #ffff;
 }
 
 
-.lemflow, .redes{
+.lemflow,
+.redes {
     margin-top: 20px;
 }
 
-.redes a{
+.redes a {
     margin-right: 15px;
     font-size: 24px;
     color: gray;
     text-decoration: none;
 }
 
-.redes a:hover{
+.redes a:hover {
     color: white;
 }
 
 
 /*Responsive Footer*/
 @media (max-width: 900px) {
-  .block1 {
-    flex: 0 0 100%;       /* ocupa toda la fila */
-    max-width: 100%;
-  }
-  .block2,
-  .block3,
-  .block4 {
-    flex: 1 1 140px;      /* 3 columnas siguen en la misma fila */
-  }
+    .block1 {
+        flex: 0 0 100%;
+        /* ocupa toda la fila */
+        max-width: 100%;
+    }
+
+    .block2,
+    .block3,
+    .block4 {
+        flex: 1 1 140px;
+        /* 3 columnas siguen en la misma fila */
+    }
 }
 
 /*  Tablet chico  */
 @media (max-width: 640px) {
-  .contprin {
-    gap: 32px 0;
-  }
-  .block2,
-  .block3,
-  .block4 {
-    flex: 0 0 100%;       /* cada columna ocupa su propia fila */
-  }
+    .contprin {
+        gap: 32px 0;
+    }
+
+    .block2,
+    .block3,
+    .block4 {
+        flex: 0 0 100%;
+        /* cada columna ocupa su propia fila */
+    }
 }
 
 /*  Móvil  */
 @media (max-width: 400px) {
-  footer { padding: 48px 0 24px; }
+    footer {
+        padding: 48px 0 24px;
+    }
 
-  .flowbit .texto { font-size: 1.1rem; }
+    .flowbit .texto {
+        font-size: 1.1rem;
+    }
 
-  .redes a { font-size: 1.1rem; }
+    .redes a {
+        font-size: 1.1rem;
+    }
 
-  .dr { font-size: 0.75rem; }
+    .dr {
+        font-size: 0.75rem;
+    }
 }
-#pricing table{
+
+/*RESPONSIVE NAV*/
+
+
+/*MAIN*/
+
+.contcards{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.cards{
+    padding-left: 5%;
+}
+
+.vdo {
+  width: 100%;
+  max-width: 560px;
+}
+
+.vdo iframe {
+  width: 100%;
+  height: 315px;
+}
+
+.indiVid {
+  text-align: end;
+  margin-bottom: 32px;
+}
+
+.indiVid h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.indiVid p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #888;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.btnvdo {
+    background-color: #16161f;
+    color: #b8ff57;
+    border-radius: 10px !important;
+    padding: 5px;
+    height: 70px;
+    width: 100%;
+}
+
+.btnatenvdo {
+    height: 70px;
+    width: 100%;
+    color: black;
+    background-color: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif !important;
+}
+
+.btnatenvdo:hover {
+    cursor: pointer;
+    background-color: #bdbdbd;
+}
+
+.hdem{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif !important;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.contvid{
+    padding-bottom: 2%;
+}
+
+/*Parte marlene (main)*/
+#pricing table {
     border-radius: 12px;
     overflow: hidden;
     font-family: DM Sans, sans-serif;
 }
+
 #nombre-precio {
     background: #ffffff;
     color: #8b8b9e;
@@ -235,45 +431,45 @@ footer{
     font-family: DM Sans, sans-serif;
     font-size: 40px;
     text-align: left;
-    font-weight: 800;  
+    font-weight: 800;
 }
 
-#subtitulo-seccion{
+#subtitulo-seccion {
     background: #ffffff;
     color: #8b8b9e;
     font-family: DM Sans, sans-serif;
     text-align: left;
 }
 
-#encabezado-tabla th{
+#encabezado-tabla th {
     background-color: #0a0a0f;
     color: #b8ff57;
     font-family: DM Sans, sans-serif;
     text-align: center;
 }
 
-#plan-starter{
-     background-color: #00ff66;
-     color: #0a0a0f;
-     font-weight: 700;
-     font-family: DM Sans, sans-serif;
+#plan-starter {
+    background-color: #00ff66;
+    color: #0a0a0f;
+    font-weight: 700;
+    font-family: DM Sans, sans-serif;
 }
 
-#plan-pro{
-     background-color: #007bff;
-     color: #ffffff;
-     font-family: DM Sans, sans-serif;
-     font-weight: 700;
+#plan-pro {
+    background-color: #007bff;
+    color: #ffffff;
+    font-family: DM Sans, sans-serif;
+    font-weight: 700;
 }
 
-#plan-enterprise{
-     background-color: #ff9500;
-     color: #ffffff;
-     font-family: DM Sans, sans-serif;
-     font-weight: 700;
+#plan-enterprise {
+    background-color: #ff9500;
+    color: #ffffff;
+    font-family: DM Sans, sans-serif;
+    font-weight: 700;
 }
 
-#banner-beneficios{
+#banner-beneficios {
     background-color: #0a0a0f;
     padding: 40px 0;
 }
