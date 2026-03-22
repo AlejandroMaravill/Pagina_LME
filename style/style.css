@@ -25,7 +25,7 @@ nav {
     padding-top: 1%;
 }
 
-/*
+
 .logo {
   font-weight: bold;
   color: white;
@@ -289,7 +289,6 @@ footer {
 @media (max-width: 900px) {
     .block1 {
         flex: 0 0 100%;
-        /* ocupa toda la fila */
         max-width: 100%;
     }
 
@@ -297,11 +296,10 @@ footer {
     .block3,
     .block4 {
         flex: 1 1 140px;
-        /* 3 columnas siguen en la misma fila */
     }
 }
 
-/*  Tablet chico  */
+/*  Tablet  */
 @media (max-width: 640px) {
     .contprin {
         gap: 32px 0;
@@ -311,7 +309,6 @@ footer {
     .block3,
     .block4 {
         flex: 0 0 100%;
-        /* cada columna ocupa su propia fila */
     }
 }
 
@@ -334,7 +331,6 @@ footer {
     }
 }
 
-/*RESPONSIVE NAV*/
 
 
 /*MAIN*/
@@ -495,9 +491,7 @@ footer {
 
 /*responsive de main de video*/
 
-/* ========== RESPONSIVE ========== */
-
-/* Tablets (991px y menor) */
+/* Tablets */
 @media (max-width: 991px) {
   .vdo {
     width: 100%;
@@ -514,7 +508,6 @@ footer {
     padding: 16px 8px;
   }
 
-  /* 🔑 Aquí forzamos que los col de Bootstrap se pongan en columna */
   .row > .col,
   .row > [class*="col-"] {
     flex: 0 0 100%;
@@ -529,7 +522,7 @@ footer {
   }
 }
 
-/* Tablets pequeñas (768px y menor) */
+/* Tablets pequeñas*/
 @media (max-width: 768px) {
   .vdo iframe {
     height: 220px;
@@ -543,7 +536,6 @@ footer {
     font-size: 0.95rem;
   }
 
-  /* Los botones también en columna */
   .row.indiVid .row > .col,
   .row > .col {
     flex: 0 0 100%;
@@ -551,7 +543,7 @@ footer {
   }
 }
 
-/* Móviles (480px y menor) */
+/* Móviles */
 @media (max-width: 480px) {
   .vdo iframe {
     height: 180px;
@@ -578,9 +570,8 @@ footer {
 /*RESPONSIVE CARDS*/
 
 
-/* ========== RESPONSIVE CARDS ========== */
 
-/* Tablets (991px y menor) - 2 cards por fila */
+/* Tablets*/
 @media (max-width: 991px) {
   .contcards .row > .col,
   .contcards .row > [class*="col-"] {
@@ -590,7 +581,7 @@ footer {
   }
 
   .contcards .card {
-    width: 100% !important; /* override del style="width: 18rem" inline */
+    width: 100% !important; 
   }
 
   .contcards .cards {
@@ -600,7 +591,7 @@ footer {
   }
 }
 
-/* Tablets pequeñas (768px y menor) - 1 card por fila */
+/* Tablets pequeñas*/
 @media (max-width: 768px) {
   .contcards .row > .col,
   .contcards .row > [class*="col-"] {
@@ -632,7 +623,7 @@ footer {
   }
 }
 
-/* Móviles (480px y menor) */
+/* Móviles*/
 @media (max-width: 480px) {
   .contcards {
     padding: 0 12px;
@@ -651,16 +642,12 @@ footer {
   }
 }
 
-
-/* ========== FIX ALTURA UNIFORME DE CARDS ========== */
-
 .contcards .card {
-  height: 100%; /* Todas las cards ocupan el mismo alto */
+  height: 100%; 
 }
-
 .contcards .card-img-top {
-  height: 220px;      /* Altura fija igual para todas las imágenes */
-  object-fit: cover;  /* Recorta la imagen sin deformarla */
+  height: 220px;     
+  object-fit: cover; 
   width: 100%;
 }
 
@@ -683,10 +670,8 @@ footer {
   }
 }
 
-/* ========== FIX CARDS EN PANTALLA MEDIANA ========== */
-
 .contcards .row {
-  align-items: stretch; /* Todas las cards de la misma fila tienen igual alto */
+  align-items: stretch; 
 }
 
 .contcards .col,
@@ -696,9 +681,9 @@ footer {
 }
 
 .contcards .card {
-  flex: 1;             /* La card ocupa todo el alto disponible del col */
+  flex: 1;            
   height: 100%;
-  width: 100% !important; /* Override del style="width: 18rem" inline */
+  width: 100% !important; 
 }
 
 .contcards .card-img-top {
@@ -708,7 +693,7 @@ footer {
 }
 
 .contcards .card-body {
-  flex: 1;             /* El body crece para rellenar el espacio sobrante */
+  flex: 1;         
   display: flex;
   flex-direction: column;
 }
@@ -717,9 +702,6 @@ footer {
 /*RESPONSIVE DE HEADER*/
 
 
-/* ========== RESPONSIVE HERO SECTION ========== */
-
-/* --- ESTILOS BASE (todas las pantallas) --- */
 .img {
   width: 100%;
   padding-bottom: 2%;
@@ -731,7 +713,7 @@ footer {
   display: block;
 }
 
-/* --- TABLETS GRANDES (991px y menor) --- */
+/*TABLETS GRANDES */
 @media (max-width: 991px) {
   .let p,
   .let2 p {
@@ -757,7 +739,7 @@ footer {
   }
 }
 
-/* --- TABLETS PEQUEÑAS (768px y menor) --- */
+/*TABLETS PEQUEÑAS */
 @media (max-width: 768px) {
   .let p,
   .let2 p {
@@ -773,7 +755,6 @@ footer {
     text-align: center;
   }
 
-  /* 🔑 CAMBIO: botones en la misma fila al 50% */
   .row > .col-6.colbtnh,
   .row > .col-6.colbtndemo {
     flex: 0 0 50%;
@@ -785,8 +766,8 @@ footer {
   .btndemo {
     width: 100%;
     display: block;
-    font-size: 0.85rem;  /* Texto más pequeño para que quepan */
-    padding: 8px 6px;    /* Menos padding para reducir el tamaño */
+    font-size: 0.85rem;  
+    padding: 8px 6px;    
   }
 
   .row.img {
@@ -799,7 +780,7 @@ footer {
   }
 }
 
-/* --- MÓVILES (480px y menor) --- */
+/* MÓVILES*/
 @media (max-width: 480px) {
   .let p,
   .let2 p {
